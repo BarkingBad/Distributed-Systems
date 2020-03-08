@@ -2,8 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="distributed-systems.exercise-one.main" target="11" />
-      <module name="distributed-systems.exercise-one.test" target="11" />
       <module name="exercise-one.main" target="11" />
       <module name="exercise-one.test" target="11" />
     </bytecodeTargetLevel>

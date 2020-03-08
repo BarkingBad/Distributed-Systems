@@ -1,13 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="exercise-one" external.linked.project.path="$MODULE_DIR$/../../exercise-one" external.root.project.path="$MODULE_DIR$/../../exercise-one" external.system.id="GRADLE" external.system.module.group="distributed-systems" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="distributed-systems" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="exercise-one" linkedProjectPath="$MODULE_DIR$/../../exercise-one" rootProjectPath="$MODULE_DIR$/../../exercise-one" />
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$/../../exercise-one">
-      <excludeFolder url="file://$MODULE_DIR$/../../exercise-one/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/../../exercise-one/build" />
-    </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+<module external.linked.project.id="exercise-one" external.linked.project.path="$MODULE_DIR$/../../exercise-one" external.root.project.path="$MODULE_DIR$/../../exercise-one" external.system.id="GRADLE" external.system.module.group="distributed-systems" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4" />

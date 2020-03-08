@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c40e8305-c9b3-4a81-a7d7-6ae29b93d29a" name="Default Changelist" comment="" />
+    <list default="true" id="c40e8305-c9b3-4a81-a7d7-6ae29b93d29a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/exercise-two/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-one/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-one/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-two/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-two/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-two/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-two/src/main/kotlin/main/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +17,9 @@
     <projectState path="$PROJECT_DIR$/exercise-one">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/exercise-two">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -18,28 +27,15 @@
         <task path="$PROJECT_DIR$/exercise-one">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/exercise-two">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exercise-one" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exercise-one" type="f1a62948:ProjectNode" />
-                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exercise-one" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exercise-one" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="exercise-two" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -47,6 +43,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Distributed Systems" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,6 +65,9 @@
       </set>
     </option>
   </component>
+  <component name="KonanWorkspace">
+    <executables />
+  </component>
   <component name="ProjectId" id="1YZZT3ovspcPHhpFpJdxJh6ys0U" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -82,16 +84,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise-one/src/main/kotlin" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/exercise-one/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/out" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -99,9 +102,9 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="client" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercise-two/src/main/kotlin/main" />
       <recent name="$PROJECT_DIR$/exercise-one/src/main/kotlin" />
-      <recent name="$PROJECT_DIR$/out" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -111,87 +114,95 @@
       <command value="gradle server" />
       <command value="gradle serverJar" />
       <command value="gradle clientJar" />
+      <command value="gradle gretty" />
+      <command value="gradle " />
+      <command value="gradle war" />
+      <command value="gradle shadowJar" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.exercise-one [client]">
-    <configuration name="exercise-one [client]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.exercise-two [shadowJar]">
+    <configuration name="exercise-two [gretty]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-one" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="client" />
+            <option value="gretty" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="exercise-one [processTestResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="exercise-two [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-one" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="processTestResources" />
+            <option value="shadowJar" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="exercise-one [server]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="exercise-two [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-one" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="server" />
+            <option value="war" />
           </list>
         </option>
-        <option name="vmOptions" />
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="client.ClientHandlerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="distributed-systems.exercise-one.main" />
+    <configuration name="exercise-two" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="exercise-two.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="client.ClientHandlerKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="server.ServerHandlerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="distributed-systems.exercise-one.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="server.ServerHandlerKt" />
+      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.exercise-one [client]" />
-        <item itemvalue="Gradle.exercise-one [processTestResources]" />
-        <item itemvalue="Gradle.exercise-one [server]" />
-        <item itemvalue="Kotlin.client.ClientHandlerKt" />
-        <item itemvalue="Kotlin.server.ServerHandlerKt" />
+        <item itemvalue="Gradle.exercise-two [shadowJar]" />
+        <item itemvalue="Kotlin.main.MainKt" />
+        <item itemvalue="Gradle.exercise-two [war]" />
+        <item itemvalue="Gradle.exercise-two" />
+        <item itemvalue="Gradle.exercise-two [gretty]" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +229,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583152081003</updated>
       <workItem from="1583152084444" duration="1053000" />
+      <workItem from="1583785128331" duration="557000" />
+      <workItem from="1583824871430" duration="10000" />
     </task>
     <servers />
   </component>
@@ -241,10 +254,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="315" y="84" width="800" height="665" key="#Project_Structure" timestamp="1583597153728">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2233" y="66" width="800" height="665" key="#Project_Structure" timestamp="1584187594954">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="315" y="84" width="800" height="665" key="#Project_Structure/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583597153728" />
+    <state x="2233" y="66" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584187594954" />
     <state x="178" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583593956868">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -265,10 +279,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="394" y="71" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583576895205" />
-    <state x="727" y="119" key="#xdebugger.evaluate" timestamp="1583606377691">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2599" y="412" width="1064" height="598" key="#xdebugger.evaluate" timestamp="1584186772309">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="727" y="119" key="#xdebugger.evaluate/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583606377691" />
+    <state x="165" y="2" width="1025" height="726" key="#xdebugger.evaluate/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583707864246" />
+    <state x="2599" y="412" width="1064" height="598" key="#xdebugger.evaluate/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186772309" />
     <state x="720" y="-18" width="720" height="918" key="DiffContextDialog" timestamp="1583588887361">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -277,46 +292,58 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="230" y="74" width="776" height="568" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583154852411" />
-    <state width="1398" height="250" key="GridCell.Tab.0.bottom" timestamp="1583611228350">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1584190789559">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
-    <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611228350" />
-    <state width="1398" height="250" key="GridCell.Tab.0.center" timestamp="1583611228350">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
+    <state width="1874" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789559" />
+    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
+    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1584190789558">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
-    <state width="1398" height="250" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611228350" />
-    <state width="1398" height="250" key="GridCell.Tab.0.left" timestamp="1583611228350">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="250" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
+    <state width="1874" height="285" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789558" />
+    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
+    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1584190789558">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583157512078" />
-    <state width="1398" height="250" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611228350" />
-    <state width="1398" height="250" key="GridCell.Tab.0.right" timestamp="1583611228350">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="250" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
+    <state width="1874" height="285" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789558" />
+    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1584190789559">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
-    <state width="1398" height="250" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611228350" />
-    <state width="1398" height="295" key="GridCell.Tab.1.bottom" timestamp="1583611227216">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="250" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
+    <state width="1874" height="285" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789559" />
+    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
+    <state width="1874" height="352" key="GridCell.Tab.1.bottom" timestamp="1584186959669">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583157512080" />
-    <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611227216" />
-    <state width="1398" height="295" key="GridCell.Tab.1.center" timestamp="1583611227216">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
+    <state width="1874" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
+    <state width="1874" height="352" key="GridCell.Tab.1.center" timestamp="1584186959669">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
-    <state width="1398" height="295" key="GridCell.Tab.1.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611227216" />
-    <state width="1398" height="295" key="GridCell.Tab.1.left" timestamp="1583611227216">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="172" key="GridCell.Tab.1.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
+    <state width="1874" height="352" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
+    <state width="1874" height="352" key="GridCell.Tab.1.left" timestamp="1584186959669">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
-    <state width="1398" height="295" key="GridCell.Tab.1.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611227216" />
-    <state width="1398" height="295" key="GridCell.Tab.1.right" timestamp="1583611227216">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1398" height="172" key="GridCell.Tab.1.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
+    <state width="1874" height="352" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
+    <state width="1874" height="352" key="GridCell.Tab.1.right" timestamp="1584186959669">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
-    <state width="1398" height="295" key="GridCell.Tab.1.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583611227216" />
+    <state width="1398" height="172" key="GridCell.Tab.1.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
+    <state width="1874" height="352" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
     <state x="459" y="136" width="512" height="561" key="RollbackChangesDialog" timestamp="1583610785767">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -325,16 +352,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="212" y="-52" width="1024" height="833" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583156424831" />
-    <state x="515" y="228" key="com.intellij.ide.util.TipDialog" timestamp="1583588758992">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="960" height="530" key="XDebugger.FullValuePopup" timestamp="1584186772206">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="530" key="XDebugger.FullValuePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186772206" />
+    <state x="2433" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1583824876004">
+      <screen x="1920" y="0" width="1920" height="1200" />
     </state>
     <state x="386" y="250" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583154124395" />
     <state x="515" y="228" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583588758992" />
-    <state x="512" y="240" width="896" height="813" key="run.anything.popup" timestamp="1583602016600">
+    <state x="2433" y="235" key="com.intellij.ide.util.TipDialog/3840.0.1920.1080/1920.0.1920.1200/0.0.1920.1200@1920.0.1920.1200" timestamp="1583824876004" />
+    <state x="1975" y="80" width="849" height="900" key="find.popup" timestamp="1584190657623">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1975" y="80" width="849" height="900" key="find.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190657623" />
+    <state x="47" y="27" width="1335" height="779" key="new project wizard" timestamp="1583684447915">
       <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="47" y="27" width="1335" height="779" key="new project wizard/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583684447915" />
+    <state x="2432" y="240" width="896" height="813" key="run.anything.popup" timestamp="1584189414408">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="384" y="200" width="672" height="677" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1583156999150" />
     <state x="512" y="240" width="896" height="813" key="run.anything.popup/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583602016600" />
+    <state x="2432" y="240" width="896" height="813" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584189414408" />
+    <state x="2063" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1584189436756">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2063" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584189436756" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -361,6 +406,11 @@
           <url>file://$PROJECT_DIR$/exercise-one/src/main/kotlin/client/TcpClient.kt</url>
           <line>23</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/exercise-two/src/main/kotlin/main/Main.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

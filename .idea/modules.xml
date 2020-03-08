@@ -3,9 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Distributed Systems.iml" filepath="$PROJECT_DIR$/.idea/Distributed Systems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/distributed-systems.exercise-one.main.iml" filepath="$PROJECT_DIR$/.idea/modules/distributed-systems.exercise-one.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/distributed-systems.exercise-one.test.iml" filepath="$PROJECT_DIR$/.idea/modules/distributed-systems.exercise-one.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-one.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-one.main.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-one.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/exercise-one.test.iml" filepath="$PROJECT_DIR$/.idea/modules/exercise-one.test.iml" />
     </modules>
