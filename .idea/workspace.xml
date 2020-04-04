@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40e8305-c9b3-4a81-a7d7-6ae29b93d29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise-two/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-one/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-one/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-two/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-two/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-two/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-two/src/main/kotlin/main/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/src/main/kotlin/GlobalSettings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-three/src/main/kotlin/GlobalSettings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/src/main/kotlin/administrator/Administrator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-three/src/main/kotlin/administrator/Administrator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/src/main/kotlin/agency/Agency.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-three/src/main/kotlin/agency/Agency.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-three/src/main/kotlin/carrier/Carrier.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-three/src/main/kotlin/carrier/Carrier.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/exercise-one">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/exercise-three">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/exercise-two">
@@ -32,12 +35,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="exercise-two" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -52,6 +50,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -85,16 +84,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exercise-three/src/main/resources/graph" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercise-two/src/main/kotlin/main" />
       <recent name="$PROJECT_DIR$/exercise-one/src/main/kotlin" />
-      <recent name="$PROJECT_DIR$/out" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -102,9 +101,10 @@
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="client" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exercise-two/src/main/kotlin/main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exercise-three/src/main/resources/graph" />
       <recent name="$PROJECT_DIR$/exercise-one/src/main/kotlin" />
+      <recent name="$PROJECT_DIR$/out" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -120,101 +120,86 @@
       <command value="gradle shadowJar" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.exercise-two [shadowJar]">
-    <configuration name="exercise-two [gretty]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="gretty" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise-two [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="shadowJar" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise-two [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="war" />
-          </list>
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="exercise-two" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/exercise-two" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="main.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="exercise-two.main" />
+  <component name="RunManager" selected="Kotlin.CarrierKt">
+    <configuration name="AdministratorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="exercise-three.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="administrator.AdministratorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Agency" type="JetRunConfigurationType" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="exercise-three.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="agency.Agency" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgencyKt" type="JetRunConfigurationType" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="exercise-three.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="agency.AgencyKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Carrier" type="JetRunConfigurationType" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="exercise-three.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="carrier.Carrier" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarrierKt" type="JetRunConfigurationType" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="exercise-three.main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="carrier.CarrierKt" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.Agency" />
+      <item itemvalue="Kotlin.Carrier" />
+      <item itemvalue="Kotlin.AgencyKt" />
+      <item itemvalue="Kotlin.CarrierKt" />
+      <item itemvalue="Kotlin.AdministratorKt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.exercise-two [shadowJar]" />
-        <item itemvalue="Kotlin.main.MainKt" />
-        <item itemvalue="Gradle.exercise-two [war]" />
-        <item itemvalue="Gradle.exercise-two" />
-        <item itemvalue="Gradle.exercise-two [gretty]" />
+        <item itemvalue="Kotlin.CarrierKt" />
+        <item itemvalue="Kotlin.AgencyKt" />
+        <item itemvalue="Kotlin.AdministratorKt" />
+        <item itemvalue="Kotlin.Carrier" />
+        <item itemvalue="Kotlin.Agency" />
       </list>
     </recent_temporary>
   </component>
@@ -254,19 +239,24 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2233" y="66" width="800" height="665" key="#Project_Structure" timestamp="1584187594954">
+    <state x="2231" y="48" width="804" height="667" key="#Project_Structure" timestamp="1585992071944">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="315" y="84" width="800" height="665" key="#Project_Structure/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583597153728" />
-    <state x="2233" y="66" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584187594954" />
-    <state x="178" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583593956868">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2231" y="48" width="804" height="667" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1585992071944" />
+    <state x="2092" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586016722181">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="178" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583593956868" />
+    <state x="2092" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586016722181" />
     <state x="426" y="228" width="578" height="377" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583610317947">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="426" y="228" width="578" height="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583610317947" />
+    <state x="2305" y="231" width="436" height="552" key="#com.intellij.ide.util.MemberChooser" timestamp="1586016510866">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2305" y="231" width="436" height="552" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586016510866" />
     <state x="419" y="284" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583575600885">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -279,97 +269,102 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="394" y="71" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583576895205" />
-    <state x="2599" y="412" width="1064" height="598" key="#xdebugger.evaluate" timestamp="1584186772309">
+    <state x="2565" y="303" width="1064" height="598" key="#xdebugger.evaluate" timestamp="1586019508327">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="165" y="2" width="1025" height="726" key="#xdebugger.evaluate/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583707864246" />
-    <state x="2599" y="412" width="1064" height="598" key="#xdebugger.evaluate/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186772309" />
+    <state x="2565" y="303" width="1064" height="598" key="#xdebugger.evaluate/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586019508327" />
     <state x="720" y="-18" width="720" height="918" key="DiffContextDialog" timestamp="1583588887361">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="720" y="-18" width="720" height="918" key="DiffContextDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583588887361" />
-    <state x="230" y="74" width="776" height="568" key="FileChooserDialogImpl" timestamp="1583154852411">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2225" y="71" width="776" height="568" key="FileChooserDialogImpl" timestamp="1584343103166">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="230" y="74" width="776" height="568" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583154852411" />
-    <state width="1874" height="285" key="GridCell.Tab.0.bottom" timestamp="1584190789559">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="2225" y="71" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584343103166" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1586109193956">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789559" />
-    <state width="1878" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
-    <state width="1874" height="285" key="GridCell.Tab.0.center" timestamp="1584190789558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1464" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586087578939" />
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193956" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1586109193954">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="285" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789558" />
-    <state width="1878" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
-    <state width="1874" height="285" key="GridCell.Tab.0.left" timestamp="1584190789558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1464" height="284" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586087578939" />
+    <state width="1874" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193954" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1586109193953">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583157512078" />
     <state width="1398" height="250" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="285" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789558" />
-    <state width="1878" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
-    <state width="1874" height="285" key="GridCell.Tab.0.right" timestamp="1584190789559">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1464" height="284" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586087578939" />
+    <state width="1874" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193953" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1586109193955">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="285" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190789559" />
-    <state width="1878" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583785357229" />
-    <state width="1874" height="352" key="GridCell.Tab.1.bottom" timestamp="1584186959669">
+    <state width="1464" height="284" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586087578939" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193955" />
+    <state width="1171" height="352" key="GridCell.Tab.1.bottom" timestamp="1586021098587">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583157512080" />
     <state width="1398" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
-    <state width="1874" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
-    <state width="1874" height="352" key="GridCell.Tab.1.center" timestamp="1584186959669">
+    <state width="1171" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586021098587" />
+    <state width="1171" height="352" key="GridCell.Tab.1.center" timestamp="1586021098587">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="172" key="GridCell.Tab.1.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
-    <state width="1874" height="352" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
-    <state width="1874" height="352" key="GridCell.Tab.1.left" timestamp="1584186959669">
+    <state width="1171" height="352" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586021098587" />
+    <state width="1171" height="352" key="GridCell.Tab.1.left" timestamp="1586021098587">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="172" key="GridCell.Tab.1.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
-    <state width="1874" height="352" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
-    <state width="1874" height="352" key="GridCell.Tab.1.right" timestamp="1584186959669">
+    <state width="1171" height="352" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586021098587" />
+    <state width="1171" height="352" key="GridCell.Tab.1.right" timestamp="1586021098587">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="172" key="GridCell.Tab.1.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
-    <state width="1874" height="352" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186959669" />
+    <state width="1171" height="352" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1586021098587" />
     <state x="459" y="136" width="512" height="561" key="RollbackChangesDialog" timestamp="1583610785767">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="459" y="136" width="512" height="561" key="RollbackChangesDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583610785767" />
-    <state x="212" y="-52" width="1024" height="833" key="SettingsEditor" timestamp="1583156424831">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2201" y="-20" width="1024" height="833" key="SettingsEditor" timestamp="1585992183506">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="212" y="-52" width="1024" height="833" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583156424831" />
+    <state x="2201" y="-20" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1585992183506" />
     <state width="960" height="530" key="XDebugger.FullValuePopup" timestamp="1584186772206">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="960" height="530" key="XDebugger.FullValuePopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584186772206" />
-    <state x="2433" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1583824876004">
-      <screen x="1920" y="0" width="1920" height="1200" />
+    <state x="507" y="158" key="com.intellij.ide.util.TipDialog" timestamp="1586108587453">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="386" y="250" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583154124395" />
     <state x="515" y="228" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583588758992" />
+    <state x="2429" y="176" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1585992235213" />
+    <state x="507" y="158" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586108587453" />
     <state x="2433" y="235" key="com.intellij.ide.util.TipDialog/3840.0.1920.1080/1920.0.1920.1200/0.0.1920.1200@1920.0.1920.1200" timestamp="1583824876004" />
     <state x="1975" y="80" width="849" height="900" key="find.popup" timestamp="1584190657623">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1975" y="80" width="849" height="900" key="find.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584190657623" />
-    <state x="47" y="27" width="1335" height="779" key="new project wizard" timestamp="1583684447915">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2274" y="146" width="1335" height="779" key="new project wizard" timestamp="1585992043098">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="47" y="27" width="1335" height="779" key="new project wizard/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583684447915" />
+    <state x="2274" y="146" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1585992043098" />
     <state x="2432" y="240" width="896" height="813" key="run.anything.popup" timestamp="1584189414408">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

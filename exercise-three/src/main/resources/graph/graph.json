@@ -1,0 +1,459 @@
+{
+  "exchanges": [
+    {
+      "name": "serviceExchange (TOPIC)",
+      "type": "2",
+      "x": 545,
+      "y": 397,
+      "resource_type": "exchange",
+      "id": 1
+    }
+  ],
+  "queues": [
+    {
+      "name": "CARGO",
+      "x": 905,
+      "y": 404,
+      "resource_type": "queue",
+      "id": 3,
+      "messages": [],
+      "totalConsumers": 1,
+      "lastConsumer": 0
+    },
+    {
+      "name": "SATELLITE",
+      "x": 824,
+      "y": 476,
+      "resource_type": "queue",
+      "id": 4,
+      "messages": [],
+      "totalConsumers": 1,
+      "lastConsumer": 0
+    },
+    {
+      "name": "PEOPLE",
+      "resource_type": "queue",
+      "id": 42,
+      "type": 0,
+      "x": 825,
+      "y": 329,
+      "messages": []
+    },
+    {
+      "name": "agency2",
+      "resource_type": "queue",
+      "id": 45,
+      "type": 0,
+      "x": 302,
+      "y": 273,
+      "messages": []
+    },
+    {
+      "name": "agency1",
+      "resource_type": "queue",
+      "id": 46,
+      "type": 0,
+      "x": 306,
+      "y": 553,
+      "messages": []
+    },
+    {
+      "name": "*",
+      "resource_type": "queue",
+      "id": 57,
+      "type": 0,
+      "x": 547,
+      "y": 629,
+      "messages": []
+    },
+    {
+      "name": "agency1-message",
+      "resource_type": "queue",
+      "id": 63,
+      "type": 0,
+      "x": 231,
+      "y": 765,
+      "messages": []
+    },
+    {
+      "name": "agency2-message",
+      "resource_type": "queue",
+      "id": 64,
+      "type": 0,
+      "x": 302,
+      "y": 126,
+      "messages": []
+    },
+    {
+      "name": "provider2-message",
+      "resource_type": "queue",
+      "id": 65,
+      "type": 0,
+      "x": 842,
+      "y": 741,
+      "messages": []
+    },
+    {
+      "name": "provider1-message",
+      "resource_type": "queue",
+      "id": 66,
+      "type": 0,
+      "x": 824,
+      "y": 56,
+      "messages": []
+    }
+  ],
+  "bindings": [
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 3,
+      "destination_type": "queue",
+      "routing_key": "carriers.CARGO",
+      "arguments": [],
+      "resource_type": "binding",
+      "id": 5,
+      "source_type": "exchange"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 4,
+      "destination_type": "queue",
+      "routing_key": "carriers.SATELLITE",
+      "arguments": [],
+      "resource_type": "binding",
+      "id": 6,
+      "source_type": "exchange"
+    },
+    {
+      "source": 3,
+      "vhost": "default",
+      "source_type": "queue",
+      "destination": 11,
+      "destination_type": "consumer",
+      "id": 14,
+      "routing_key": null,
+      "arguments": []
+    },
+    {
+      "source": 4,
+      "vhost": "default",
+      "source_type": "queue",
+      "destination": 12,
+      "destination_type": "consumer",
+      "id": 15,
+      "routing_key": null,
+      "arguments": []
+    },
+    {
+      "source": 9,
+      "vhost": "default",
+      "source_type": "producer",
+      "destination": 1,
+      "destination_type": "exchange",
+      "id": 17,
+      "routing_key": "di.usr.two",
+      "arguments": []
+    },
+    {
+      "source": 35,
+      "vhost": "demo",
+      "destination": 1,
+      "destination_type": "exchange",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 39,
+      "source_type": "producer"
+    },
+    {
+      "source": 3,
+      "vhost": "demo",
+      "destination": 12,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 40,
+      "source_type": "queue"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 42,
+      "destination_type": "queue",
+      "routing_key": "carriers.PEOPLE",
+      "arguments": [],
+      "id": 43,
+      "source_type": "exchange"
+    },
+    {
+      "source": 42,
+      "vhost": "demo",
+      "destination": 11,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 44,
+      "source_type": "queue"
+    },
+    {
+      "source": 47,
+      "vhost": "demo",
+      "destination": 1,
+      "destination_type": "exchange",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 51,
+      "source_type": "producer"
+    },
+    {
+      "source": 48,
+      "vhost": "demo",
+      "destination": 1,
+      "destination_type": "exchange",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 52,
+      "source_type": "producer"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 45,
+      "destination_type": "queue",
+      "routing_key": "agencies.agency2",
+      "arguments": [],
+      "id": 53,
+      "source_type": "exchange"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 46,
+      "destination_type": "queue",
+      "routing_key": "agencies.agency1",
+      "arguments": [],
+      "id": 54,
+      "source_type": "exchange"
+    },
+    {
+      "source": 45,
+      "vhost": "demo",
+      "destination": 49,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 55,
+      "source_type": "queue"
+    },
+    {
+      "source": 46,
+      "vhost": "demo",
+      "destination": 50,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 56,
+      "source_type": "queue"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 57,
+      "destination_type": "queue",
+      "routing_key": "*.*",
+      "arguments": [],
+      "id": 60,
+      "source_type": "exchange"
+    },
+    {
+      "source": 57,
+      "vhost": "demo",
+      "destination": 58,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 61,
+      "source_type": "queue"
+    },
+    {
+      "source": 59,
+      "vhost": "demo",
+      "destination": 1,
+      "destination_type": "exchange",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 62,
+      "source_type": "producer"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 65,
+      "destination_type": "queue",
+      "routing_key": "*.mcarriers",
+      "arguments": [],
+      "id": 67,
+      "source_type": "exchange"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 66,
+      "destination_type": "queue",
+      "routing_key": "*.mcarriers",
+      "arguments": [],
+      "id": 68,
+      "source_type": "exchange"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 64,
+      "destination_type": "queue",
+      "routing_key": "magencies.*",
+      "arguments": [],
+      "id": 69,
+      "source_type": "exchange"
+    },
+    {
+      "source": 1,
+      "vhost": "demo",
+      "destination": 63,
+      "destination_type": "queue",
+      "routing_key": "magencies.*",
+      "arguments": [],
+      "id": 70,
+      "source_type": "exchange"
+    },
+    {
+      "source": 63,
+      "vhost": "demo",
+      "destination": 50,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 71,
+      "source_type": "queue"
+    },
+    {
+      "source": 64,
+      "vhost": "demo",
+      "destination": 49,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 72,
+      "source_type": "queue"
+    },
+    {
+      "source": 66,
+      "vhost": "demo",
+      "destination": 11,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 73,
+      "source_type": "queue"
+    },
+    {
+      "source": 65,
+      "vhost": "demo",
+      "destination": 12,
+      "destination_type": "consumer",
+      "routing_key": "key",
+      "arguments": [],
+      "id": 74,
+      "source_type": "queue"
+    }
+  ],
+  "producers": [
+    {
+      "name": "agency1",
+      "x": 103,
+      "y": 463,
+      "interval": 5,
+      "publish": {
+        "to": 1,
+        "payload": "two",
+        "routing_key": "di.usr.two"
+      },
+      "resource_type": "producer",
+      "id": 9
+    },
+    {
+      "name": "agency2",
+      "resource_type": "producer",
+      "id": 35,
+      "type": 0,
+      "x": 113,
+      "y": 351
+    },
+    {
+      "name": "provider1",
+      "resource_type": "producer",
+      "id": 47,
+      "type": 0,
+      "x": 1035,
+      "y": 124
+    },
+    {
+      "name": "provider1",
+      "resource_type": "producer",
+      "id": 48,
+      "type": 0,
+      "x": 1042,
+      "y": 724
+    },
+    {
+      "name": "administrator",
+      "resource_type": "producer",
+      "id": 59,
+      "type": 0,
+      "x": 426,
+      "y": 786
+    }
+  ],
+  "consumers": [
+    {
+      "name": "provider1",
+      "x": 1041,
+      "y": 202,
+      "consume": 3,
+      "resource_type": "consumer",
+      "id": 11
+    },
+    {
+      "name": "provider2",
+      "x": 1044,
+      "y": 642,
+      "consume": 4,
+      "resource_type": "consumer",
+      "id": 12
+    },
+    {
+      "name": "agency2",
+      "resource_type": "consumer",
+      "id": 49,
+      "type": 0,
+      "x": 111,
+      "y": 270
+    },
+    {
+      "name": "agency1",
+      "resource_type": "consumer",
+      "id": 50,
+      "type": 0,
+      "x": 103,
+      "y": 537
+    },
+    {
+      "name": "administrator",
+      "resource_type": "consumer",
+      "id": 58,
+      "type": 0,
+      "x": 515,
+      "y": 786
+    }
+  ]
+}
