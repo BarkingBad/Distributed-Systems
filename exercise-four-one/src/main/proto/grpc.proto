@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+package grpc;
+
+import "google/protobuf/duration.proto";
+
+option java_multiple_files = true;
+
+service Grpc {
+    rpc subscribeMeetings(MeetingRequest) returns (stream MeetingResponse);
+    rpc subscribeWeather(WeatherRequest) returns (stream WeatherResponse);
+}
+
+message MeetingRequest {
+    string department = 1;
+}
+
+message WeatherRequest {
+    string city = 1;
+}
+
+message MeetingResponse {
+    string name = 1;
+    int32 floor = 2;
+    int32 room = 3;
+    enum Type {
+        OFFICIAL = 0;
+        CASUAL = 1;
+        SECRET = 2;
+    }
+    Type type = 4;
+    repeated User users = 5;
+}
+
+message User {
+    string name = 1;
+    string surname = 2;
+}
+
+message WeatherResponse {
+    string city = 1;
+    int32 humidityPercentage = 2;
+    float temperature = 3;
+    enum Weather {
+        SUN = 0;
+        CLOUDY = 1;
+        RAIN = 2;
+        THUNDER = 3;
+    }
+    Weather weather = 4;
+}
