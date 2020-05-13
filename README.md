@@ -25,6 +25,11 @@ Publish subscribe pattern implemented with RabbitMQ. Below image presents the ar
 Publish subscribe pattern using GRPC. Written in Kotlin and Scala. I think it's great example how to use just released Kotlin GRPC compiler, which generates
 class files using coroutines. Also it presents how to setup grpc protobuf gradle plugin in kts
 
-#### 2. Thirft
+#### 2. Thrift
 
-Smarthouse simulation using Thirft RPC. Written in Kotlin and Scala. 
+Smarthouse simulation using Thrift RPC. Written in Kotlin and Scala. 
+
+### 5. Zookeeper
+
+Simple zookeeper client that watches the existance of nodes, gives basic information like
+count of successors of given node or prints its files tree.
