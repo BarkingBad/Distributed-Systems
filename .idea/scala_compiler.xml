@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="Gradle 1" modules="exercise-four-one.main,exercise-four-one.test,exercise-four-two.main,exercise-four-two.test">
+    <profile name="Gradle 1" modules="exercise-four-one.main,exercise-four-one.test,exercise-four-two.main,exercise-four-two.test,exercise-six.main,exercise-six.test">
       <option name="deprecationWarnings" value="true" />
       <option name="uncheckedWarnings" value="true" />
       <parameters>

@@ -3,8 +3,10 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/exercise-five" />
+    <file type="web" url="file://$PROJECT_DIR$/exercise-four-one" />
     <file type="web" url="file://$PROJECT_DIR$/exercise-four-two" />
     <file type="web" url="file://$PROJECT_DIR$/exercise-one" />
+    <file type="web" url="file://$PROJECT_DIR$/exercise-six" />
     <file type="web" url="file://$PROJECT_DIR$/exercise-three" />
     <file type="web" url="file://$PROJECT_DIR$/exercise-two" />
   </component>
