@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40e8305-c9b3-4a81-a7d7-6ae29b93d29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exercise-six/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Client.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/PriceGenerator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Server.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/DbDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-five/src/main/kotlin/zookeeper/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-five/src/main/kotlin/zookeeper/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-six/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Client.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/PriceGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/PriceGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Server.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +95,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -212,10 +207,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Executor" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Kotlin.ClientKt" />
       <item itemvalue="Kotlin.ExecutorKt" />
       <item itemvalue="Kotlin.MainKt" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -252,7 +247,9 @@
       <workItem from="1590314071101" duration="2658000" />
       <workItem from="1590319994925" duration="101000" />
       <workItem from="1590320271409" duration="15000" />
-      <workItem from="1590320301307" duration="11595000" />
+      <workItem from="1590320301307" duration="13729000" />
+      <workItem from="1590519117791" duration="9084000" />
+      <workItem from="1590528223402" duration="2219000" />
     </task>
     <servers />
   </component>
@@ -288,20 +285,21 @@
     </state>
     <state x="315" y="84" width="800" height="665" key="#Project_Structure/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583597153728" />
     <state x="2225" y="-6" width="804" height="667" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587817799584" />
-    <state x="2611" y="270" width="528" height="474" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590326053385">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="685" y="216" width="528" height="474" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590525954585">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="2611" y="270" width="528" height="474" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590326053385" />
-    <state x="2431" y="346" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589392583454">
+    <state x="685" y="216" width="528" height="474" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590525954585" />
+    <state x="2609" y="252" width="528" height="474" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590519483442" />
+    <state x="2610" y="308" width="804" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590528181800">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="178" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583593956868" />
-    <state x="2431" y="346" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589392583454" />
-    <state x="2340" y="174" width="639" height="377" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590319969297">
+    <state x="2610" y="308" width="804" height="667" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590528181800" />
+    <state x="2326" y="48" width="639" height="377" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590528382481">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="426" y="228" width="578" height="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583610317947" />
-    <state x="2340" y="174" width="639" height="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590319969297" />
+    <state x="2326" y="48" width="639" height="377" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590528382481" />
     <state x="2672" y="298" width="441" height="163" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1590326242657">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -342,37 +340,37 @@
     </state>
     <state x="230" y="74" width="776" height="568" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583154852411" />
     <state x="2219" y="17" width="428" height="474" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590318476632" />
-    <state width="1874" height="139" key="GridCell.Tab.0.bottom" timestamp="1590336746458">
+    <state width="1874" height="227" key="GridCell.Tab.0.bottom" timestamp="1590530439692">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="827" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1587656502599" />
-    <state width="1874" height="139" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590336746458" />
+    <state width="1874" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
+    <state width="1874" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
     <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193956" />
-    <state width="1874" height="139" key="GridCell.Tab.0.center" timestamp="1590336746458">
+    <state width="1874" height="227" key="GridCell.Tab.0.center" timestamp="1590530439692">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="827" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1587656502599" />
-    <state width="1874" height="139" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590336746458" />
+    <state width="1874" height="227" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
+    <state width="1874" height="227" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
     <state width="1874" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193954" />
-    <state width="1874" height="139" key="GridCell.Tab.0.left" timestamp="1590336746458">
+    <state width="1874" height="227" key="GridCell.Tab.0.left" timestamp="1590530439692">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583157512078" />
     <state width="1398" height="250" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="827" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1587656502599" />
-    <state width="1874" height="139" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590336746458" />
+    <state width="1874" height="227" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
+    <state width="1874" height="227" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
     <state width="1874" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193953" />
-    <state width="1874" height="139" key="GridCell.Tab.0.right" timestamp="1590336746458">
+    <state width="1874" height="227" key="GridCell.Tab.0.right" timestamp="1590530439692">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
-    <state width="1874" height="827" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1587656502599" />
-    <state width="1874" height="139" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590336746458" />
+    <state width="1874" height="227" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
+    <state width="1874" height="227" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
     <state width="1874" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193955" />
     <state width="1874" height="351" key="GridCell.Tab.1.bottom" timestamp="1587732901856">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -398,10 +396,15 @@
     <state width="1398" height="295" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="172" key="GridCell.Tab.1.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708652161" />
     <state width="1874" height="351" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587732901856" />
-    <state x="459" y="136" width="512" height="561" key="RollbackChangesDialog" timestamp="1583610785767">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="256" height="477" key="HiddenNamespacesPopup" timestamp="1590527843482">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="256" height="477" key="HiddenNamespacesPopup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590527843482" />
+    <state x="2377" y="118" width="512" height="561" key="RollbackChangesDialog" timestamp="1590336802944">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="459" y="136" width="512" height="561" key="RollbackChangesDialog/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583610785767" />
+    <state x="2377" y="118" key="RollbackChangesDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590336802944" />
     <state x="2199" y="-38" width="1024" height="833" key="SettingsEditor" timestamp="1590319929811">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -415,6 +418,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2654" y="257" width="433" height="429" key="chooseDestDirectoryDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1587676759192" />
+    <state x="2611" y="320" width="528" height="374" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1590527875586">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2611" y="320" width="528" height="374" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590527875586" />
     <state x="2427" y="158" key="com.intellij.ide.util.TipDialog" timestamp="1586164063579">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -438,10 +445,10 @@
     <state x="384" y="200" width="672" height="677" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1583156999150" />
     <state x="512" y="240" width="896" height="813" key="run.anything.popup/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583602016600" />
     <state x="2432" y="240" width="896" height="813" key="run.anything.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1584189414408" />
-    <state x="2063" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1590320572043">
+    <state x="2795" y="252" width="789" height="471" key="search.everywhere.popup" timestamp="1590338606672">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2063" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590320572043" />
+    <state x="2795" y="252" width="789" height="471" key="search.everywhere.popup/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590338606672" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

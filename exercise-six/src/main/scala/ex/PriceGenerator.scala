@@ -1,10 +1,10 @@
 package ex
 
-import akka.actor.{Actor, ActorLogging, ActorRef, PoisonPill}
+import akka.actor.{Actor, ActorRef, PoisonPill}
 
 import scala.util.Random
 
-class PriceGenerator extends Actor with ActorLogging {
+class PriceGenerator extends Actor {
 
   override def receive: Receive = {
     case name: String => {
