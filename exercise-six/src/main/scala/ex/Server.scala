@@ -16,7 +16,6 @@ class Server extends Actor {
 }
 
 sealed class ServerResponse
-
 case class PriceResponse(name: String, price: Int, quantity: Int) extends ServerResponse
 case class PriceWithoutQuantityResponse(name: String, price: Int) extends ServerResponse
 case class TimeoutResponse(name: String, quantity: Int) extends ServerResponse
@@ -24,7 +23,7 @@ case class TimeoutWithoutQuantityResponse(name: String) extends ServerResponse
 
 class ServerDelegate extends Actor {
 
-  implicit val timeout: Timeout = 10000.millisecond
+  implicit val timeout: Timeout = 300.millisecond
   implicit val ec: ExecutionContextExecutor = context.dispatcher
 
   override def receive: Receive = {

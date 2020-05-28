@@ -33,3 +33,10 @@ Smarthouse simulation using Thrift RPC. Written in Kotlin and Scala.
 
 Simple zookeeper client that watches the existance of nodes, gives basic information like
 count of successors of given node or prints its files tree.
+
+### 6. Akka
+
+Simple Akka exercise that makes a use of Akka, AkkaHttp and Slick. Simulates clients querying for prices.
+Written in, of course, Scala.
+
+![](./exercise-six/src/main/resources/akka.svg)

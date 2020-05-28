@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c40e8305-c9b3-4a81-a7d7-6ae29b93d29a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/DbDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registry.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-six/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Client.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Client.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/PriceGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/PriceGenerator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/exercise-six/src/main/scala/ex/Server.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +240,14 @@
       <workItem from="1590320271409" duration="15000" />
       <workItem from="1590320301307" duration="13729000" />
       <workItem from="1590519117791" duration="9084000" />
-      <workItem from="1590528223402" duration="2219000" />
+      <workItem from="1590528223402" duration="2721000" />
+      <workItem from="1590568042998" duration="21000" />
+      <workItem from="1590605646965" duration="7703000" />
+      <workItem from="1590651255812" duration="110000" />
+      <workItem from="1590674769433" duration="1978000" />
+      <workItem from="1590693640913" duration="857000" />
+      <workItem from="1590740270871" duration="33000" />
+      <workItem from="1590779865673" duration="1110000" />
     </task>
     <servers />
   </component>
@@ -340,37 +338,37 @@
     </state>
     <state x="230" y="74" width="776" height="568" key="FileChooserDialogImpl/0.0.1440.900@0.0.1440.900" timestamp="1583154852411" />
     <state x="2219" y="17" width="428" height="474" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590318476632" />
-    <state width="1874" height="227" key="GridCell.Tab.0.bottom" timestamp="1590530439692">
+    <state width="1874" height="337" key="GridCell.Tab.0.bottom" timestamp="1590618445314">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
     <state width="1874" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
-    <state width="1874" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
+    <state width="1874" height="337" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590618445314" />
     <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193956" />
-    <state width="1874" height="227" key="GridCell.Tab.0.center" timestamp="1590530439692">
+    <state width="1874" height="337" key="GridCell.Tab.0.center" timestamp="1590618445314">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.center/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
     <state width="1874" height="227" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
-    <state width="1874" height="227" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
+    <state width="1874" height="337" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590618445314" />
     <state width="1874" height="284" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193954" />
-    <state width="1874" height="227" key="GridCell.Tab.0.left" timestamp="1590530439692">
+    <state width="1874" height="337" key="GridCell.Tab.0.left" timestamp="1590618445314">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583157512078" />
     <state width="1398" height="250" key="GridCell.Tab.0.left/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
     <state width="1874" height="227" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
-    <state width="1874" height="227" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
+    <state width="1874" height="337" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590618445314" />
     <state width="1874" height="284" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193953" />
-    <state width="1874" height="227" key="GridCell.Tab.0.right" timestamp="1590530439692">
+    <state width="1874" height="337" key="GridCell.Tab.0.right" timestamp="1590618445314">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583157512079" />
     <state width="1398" height="250" key="GridCell.Tab.0.right/0.0.1920.1080/0.0.1440.900@0.0.1920.1080" timestamp="1583708691062" />
     <state width="1874" height="227" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1590526535343" />
-    <state width="1874" height="227" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590530439692" />
+    <state width="1874" height="337" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590618445314" />
     <state width="1874" height="284" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586109193955" />
     <state width="1874" height="351" key="GridCell.Tab.1.bottom" timestamp="1587732901856">
       <screen x="1920" y="0" width="1920" height="1080" />
@@ -470,11 +468,6 @@
           <url>file://$PROJECT_DIR$/exercise-one/src/main/kotlin/client/TcpClient.kt</url>
           <line>23</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/exercise-two/src/main/kotlin/main/Main.kt</url>
-          <line>37</line>
-          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

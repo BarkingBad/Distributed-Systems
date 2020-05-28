@@ -1,6 +1,6 @@
 package ex
 
-import akka.actor.{Actor, ActorRef, PoisonPill}
+import akka.actor.{Actor, PoisonPill}
 import slick.jdbc.SQLiteProfile.api._
 import slick.lifted.TableQuery
 
@@ -35,9 +35,7 @@ class DbDelegate extends Actor {
     case DbRequest(name) => {
       val s = sender
       DbDao.db.run(DbDao.getAndUpdate(name)).onComplete {
-        case Success(value) => {
-          s ! DbResponse(name, value)
-        }
+        case Success(value) => s ! DbResponse(name, value)
         case _ =>
       }
       self ! PoisonPill
